@@ -10,8 +10,8 @@
 
 ## Pre-requirement to run the code
 
-- [Node](https://nodejs.org/)
-- [Docker](https://www.docker.com/)
+- [docker](https://www.docker.com/)
+- [docker-compose](https://docs.docker.com/compose/)
 
 ## Running The code
 
@@ -19,25 +19,25 @@ In order to maintain the things simple, I configurated a node project to run scr
 
 All the code run in docker containers.
 
-`npm run <language> <filePath>`
+`docker-compose up --build`
 
 **Example Node**
 ```bash
-$ npm run node sum/sum.js
+$ docker-compose up node-code
 ```
 **Example PHP**
 ```bash
-$ npm run php sum/sum.php
+$ docker-compose up php-code
 ```
 **Example Python**
 ```bash
-$ npm run py sum/sum.py
+$ docker-compose up python-code
 ```
 **Example Golang**
 ```bash
-$ npm run go sum/sum.go
+$ docker-compose up golang-code
 ```
 **Example Elixir**
 ```bash
-$ npm run exs sum/sum.exs
+$ docker-compose up elixir-code
 ```
