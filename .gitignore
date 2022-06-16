@@ -3,3 +3,5 @@ node/package-lock.json
 php/vendor
 php/.phpunit.result.cache
 php/composer.lock
+__pycache__
+.pytest_cache

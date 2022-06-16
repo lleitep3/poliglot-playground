@@ -10,3 +10,8 @@ services:
     extends:
       file: ./php/docker-compose.yml
       service: php-code
+
+  python-code:
+    extends:
+      file: ./python/docker-compose.yml
+      service: python-code
