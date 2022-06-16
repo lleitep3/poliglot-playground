@@ -1,11 +1,11 @@
-# Javascript Algorithms and Data structures Studing project
+# PHP Algorithms and Data structures Studing project
 
 ## About the project
 
 This project intent to improve my abilities of code algorithms.
 
-- Node Version: 18.3.0
-- Testing Library: [`node:test`](https://nodejs.org/api/test.html)
+- PHP Version: 8.0.20
+- Testing Library: [`PHPUnit`](https://phpunit.de/)
 
 ## Pre-requirement to run the code
 

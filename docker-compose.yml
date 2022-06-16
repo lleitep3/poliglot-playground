@@ -5,3 +5,8 @@ services:
     extends:
       file: ./node/docker-compose.yml
       service: node-code
+
+  php-code:
+    extends:
+      file: ./php/docker-compose.yml
+      service: php-code

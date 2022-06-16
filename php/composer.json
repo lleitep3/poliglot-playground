@@ -1,0 +1,28 @@
+{
+    "name": "lleitep3/study",
+    "description": "PHP Algorithms and Data structures Studing project",
+    "scripts": {
+        "tests": "./vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "Apache2",
+    "autoload": {
+        "psr-4": {
+            "Lleitep3\\Study\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Lleitep3\\Study\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leandro Leite",
+            "email": "dev@leandroleite.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -15,7 +15,7 @@
 
 ## Running The code
 
-In order to maintain the things simple, I configurated a node project to run script with `npm` command.
+In order to maintain the things simple, to run any code you need to run just the `docker-compose` command.
 
 All the code run in docker containers.
 
