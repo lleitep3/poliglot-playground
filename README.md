@@ -22,22 +22,31 @@ All the code run in docker containers.
 `docker-compose up --build`
 
 **Example Node**
+
 ```bash
 $ docker-compose up node-code
 ```
+
 **Example PHP**
+
 ```bash
 $ docker-compose up php-code
 ```
+
 **Example Python**
+
 ```bash
 $ docker-compose up python-code
 ```
+
 **Example Golang**
+
 ```bash
 $ docker-compose up golang-code
 ```
+
 **Example Elixir**
+
 ```bash
 $ docker-compose up elixir-code
 ```
