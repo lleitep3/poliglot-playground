@@ -5,9 +5,17 @@ jobs:
   test:
     name: Run test suite
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        docker_service: ['node-code', 'php-code', 'python-code', 'golang-code']
+
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
     - name: Build docker images
-      run: docker-compose up --build
+      run: docker-compose up $DOCKER_SERVICE
+      env:
+        DOCKER_SERVICE: ${{ matrix.docker_service }}
