@@ -10,7 +10,6 @@ jobs:
       matrix:
         docker_service: ['node-code', 'php-code', 'python-code', 'golang-code']
 
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -19,3 +18,10 @@ jobs:
       run: docker-compose up $DOCKER_SERVICE
       env:
         DOCKER_SERVICE: ${{ matrix.docker_service }}
+
+    - name: Setup sonarqube
+      uses: warchant/setup-sonar-scanner@v3
+
+    - name: Run sonarqube
+      run: sonar-scanner
+           -Dsonar.login=${{ secrets.SONAR_TOKEN }}

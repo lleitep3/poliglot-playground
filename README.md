@@ -1,5 +1,7 @@
 # Studing Algorithms and Data Structures in some languages
 
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=lleitep3_poliglot-playground)
+
 ## Languages choosing
 
 - [Javascript (Node)](https://nodejs.org/)
