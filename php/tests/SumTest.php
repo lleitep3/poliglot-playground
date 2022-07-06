@@ -13,16 +13,16 @@ final class SumTest extends TestCase
 {
   public function testSumOneNumber(): void
   {
-    $this->assertSame(Sum::sum(1), 1);
+    $this->assertSame(1, Sum::sum(1));
   }
 
   public function testSumMoreThenTwoNumbers(): void
   {
-    $this->assertSame(Sum::sum(1, 2, 3), 6);
+    $this->assertSame(6, Sum::sum(1, 2, 3));
   }
 
   public function testSumNegativeNumbers(): void
   {
-    $this->assertSame(Sum::sum(1, -2, 3), 2);
+    $this->assertSame(2, Sum::sum(1, -2, 3));
   }
 }
