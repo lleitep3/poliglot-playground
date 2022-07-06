@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  golang-code:
+    build: .
+    volumes:
+      - .:/go/src

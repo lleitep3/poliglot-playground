@@ -8,6 +8,13 @@
 - [Golang](https://go.dev/)
 - [Elixir](https://elixir-lang.org/)
 
+
+## Challenges
+Challenges by languages
+
+  - Sum - sum numbers
+  - Reverse word - get a reverse order of characters of a word
+
 ## Pre-requirement to run the code
 
 - [docker](https://www.docker.com/)

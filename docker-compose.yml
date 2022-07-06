@@ -15,3 +15,8 @@ services:
     extends:
       file: ./python/docker-compose.yml
       service: python-code
+
+  golang-code:
+    extends:
+      file: ./golang/docker-compose.yml
+      service: golang-code
