@@ -5,3 +5,6 @@ php/.phpunit.result.cache
 php/composer.lock
 __pycache__
 .pytest_cache
+.scannerwork
+cover.out
+test-report.json

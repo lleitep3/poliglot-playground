@@ -8,5 +8,5 @@ COPY . /go/src
 RUN go get -d -v ./...
 
 RUN go install -v ./...
-
-CMD ["go", "test", "-v", "./src/challenges/", "-coverprofile=coverage.out"]
+CMD ["go", "test", "./src/challenges", "-coverprofile", "./cover.out", "-json", ".", ">", "./test-report.json"]
+# CMD ["go", "test", "-v", "./src/challenges/", "-coverprofile=coverage.out"]
